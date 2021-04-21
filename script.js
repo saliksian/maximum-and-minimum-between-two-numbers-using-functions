@@ -1,8 +1,8 @@
 let number1 = 100;
 let number2 = 90;
 
-let greaterNumber = maximum(number1, number2);
-let smallerNumber = minimum(number1, number2);
+maximum(number1, number2);
+minimum(number1, number2);
 
 function maximum(num1, num2) {
   if (num1 > num2) {
@@ -23,5 +23,4 @@ function minimum(num1, num2) {
   }
 }
 
-console.log(greaterNumber);
-console.log(smallerNumber);
+
